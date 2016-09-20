@@ -1,0 +1,10 @@
+<ul>
+    <li *ngFor="#director of directors">
+        {{director.name}}
+    </li>
+</ul>
+<div *ngIf="directors.length">
+    <h3>
+        You have {{directors.length}} directors
+    </h3>
+</div>
